@@ -16,7 +16,8 @@ COMMANDS = {
     'unicorn_bin': '{unicorn_bin} -D -P "{pidfile}" {args}',
     'gunicorn': 'gunicorn -D -p "{pidfile}" {args}',
     'gunicorn_django': 'gunicorn_django -D -p "{pidfile}" {args}',
-    'gunicorn_bin': '{gunicorn_bin} -D -p "{pidfile}" {args}'
+    'gunicorn_bin': '{gunicorn_bin} -D -p "{pidfile}" {args}',
+    'rainbows': 'rainbows -D {args}'
 }
 
 MANAGED_PIDS = set([])
